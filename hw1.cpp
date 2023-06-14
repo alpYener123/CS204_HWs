@@ -6,6 +6,11 @@ using namespace std;
 
 //Alp Onder Yener
 
+// A file has a matrix with -'s and #'s in it. Checks if it is rectangular.
+// Then, it gets an input where s is star, b is blank and / is new line
+// Example input: ssbs/sbs//
+// Then it checks if the input matrix can be put on the matrix in the file (s and # cannot go over each other)
+
 int main() {
     string filename;
     cout << "Please enter the file name: " << endl;
